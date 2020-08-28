@@ -1,0 +1,36 @@
+#conteudoRegras
+{
+    color: white;
+    background-color: #2F4F4F;
+    width: 85%;
+    height: 50%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    display: block;
+    transition: all 1s linear;
+    padding: 10px;
+}
+
+
+#divRegras
+{
+    margin-top: 4%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#divRegras ul 
+{
+    padding: 10px;
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+}
+#divRegras ul li
+{
+    text-decoration: none;
+}

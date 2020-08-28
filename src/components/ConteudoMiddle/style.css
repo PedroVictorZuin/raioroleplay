@@ -1,0 +1,29 @@
+#conteudoSiteMiddle
+{
+    color: white;
+    background-color: #2F4F4F;
+    width: 85%;
+    height: 50%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 10px;
+    display:block;
+}
+
+
+
+#conteudoPrincipal
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: space;
+    margin-top: 5%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+

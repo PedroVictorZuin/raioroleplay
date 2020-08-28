@@ -1,0 +1,85 @@
+#navbarUL
+{
+    font-family: "Arial";
+    font-size: 18px;
+    text-align: center;
+}
+
+#navbarUL a
+{
+    color: white;
+    opacity: 0.5;
+    margin-right: 20px;
+    transition: all 0.5s;
+    display:inline;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    
+}
+
+#navbarUL a:hover
+{
+    opacity: 1;
+
+}
+
+
+#backgroundColorId
+{
+    background-color: #1C1C1C;
+}
+
+
+#logoSuperiorNavbarLeft
+{
+    background-image: url("../../images/icons/iconRaioRolePlay.png"); /* The image used */
+    background-color: transparent;
+    height: 66px;
+    position: absolute;
+    top: 2%;
+    width: 66px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border: none;
+    cursor: pointer;
+}
+
+#logoSuperiorNavbarLeft:focus
+{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+
+#botaoStore
+{
+    border-radius: 5px;
+    position: absolute;
+    left: 8%;
+    bottom: -2px;
+}
+
+ #simbuloLoja
+{
+    background-image: url("../../images/icons/cart.png"); /* The image used */
+    background-color: transparent;
+    height: 25px;
+    position: absolute;
+    top: 20%;
+    width: 25px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border: none;
+    cursor: pointer;
+}
+
+#simbuloLoja:focus
+{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
